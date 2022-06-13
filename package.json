@@ -8,10 +8,17 @@
     "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["mini", "game", "parcel", "node"],
+  "keywords": [
+    "mini",
+    "game",
+    "parcel",
+    "node"
+  ],
   "author": "https://github.com/melvinfr-code",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.16"
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "socket.io": "^4.5.1"
   }
 }
